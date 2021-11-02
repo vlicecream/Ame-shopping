@@ -1,0 +1,12 @@
+2021-10-16T12:51:13.583+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userAPIDevJson","group":"dev","tenant":"d90294aa-9cb9-42f0-9919-63c5f17f7a30"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-16T12:51:13.600+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userAPIDevJson","group":"dev","tenant":"d90294aa-9cb9-42f0-9919-63c5f17f7a30"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-16T12:51:13.614+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"userAPIDevJson","group":"dev","tenant":"d90294aa-9cb9-42f0-9919-63c5f17f7a30"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-16T12:51:13.615+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-10-16T12:51:13.615+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: userAPIDevJson, group: dev, namespaceId: d90294aa-9cb9-42f0-9919-63c5f17f7a30.

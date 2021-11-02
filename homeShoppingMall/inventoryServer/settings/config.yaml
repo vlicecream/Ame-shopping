@@ -1,0 +1,9 @@
+nacos:
+  NamespaceID: "9c841cec-4bd5-445a-a929-476969e8adea"
+  IP: "1.116.45.13"
+  Port: 8848
+  user: "nacos"
+  password: "nacos"
+  DataID: "inventoryServerDevJson"
+  Group: "dev"
+

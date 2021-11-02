@@ -1,0 +1,41 @@
+{
+  "host": "127.0.0.1",
+  "port": 55557,
+  "mode": "dev",
+  "logger": {
+    "level": "debug",
+    "filename": "order.log",
+    "maxSize": 200,
+    "maxAge": 30,
+    "maxBackups": 7
+  },
+  "consul": {
+    "host": "192.168.198.200",
+    "healthHost": "192.168.12.134",
+    "port": 8500,
+    "Name": "order",
+    "GinName": "orderGin",
+    "Tag": [
+      "yuki",
+      "ice"
+    ]
+  },
+    "goods": {
+    "name": "goods"
+  },
+  "inventory": {
+    "name": "inventory"
+  },
+  "alipay": {
+    "app_id": "2021000118629813",
+    "private_key": "MIIEowIBAAKCAQEAjeYZs6vCizSOzwz5COEWa5n+/D+j2OcVcHjPsHnUXHm/3jfz8j+69BGw/EpNl/hMyVvsVea5SKtV5yOJlrkWYYWFChzrvP641NyhyWAz6zIWjExMBzGKn202jdUfdOroHqXyL3wX/DvEu3CZJdLIabitl96MZwVv0ZLuiVUgkgzf8riV1dL1iZgO/EWXtWVJJ+PGatX+exBhUVwxZKigqbOYgHKNPIDEYF/HJ9oP0JmuX0AF/c4wEnqXrp+YoQtUYzt/T83iadR3RM9R3LSo3UsQGD/2MU48g/e8W1q9U7x1tbMf+9pUTdqw10Jhb76szFtWy2UbPN0C1acBAD6wewIDAQABAoIBAA/DL7e1rLap7/MwDbnexw7M3HZI23qMsOT9hpSj8+MR4y5cKM0QJ0RVcsOTvWrUOjNj8qzYJFzeK3yxhecoSEQtAMpOzCECaqW6nH4yIZJOzhJnp0plRnDPQPAgbI4gSgidhnmf30o1mXT43QpGj9yulxn3rsEC6ZjuKXE385ZFi8+6Z3vJDIXh78tbVV7ZMYrxn49n1A6sCRyEELbt2PbFnDbpCeCnp4LME32n8PQd9dW3X+xBHw9zxDL4Puiel5TfBpY7KywxxZiVaWwzhUo3wMvcrDyR1BAH3GKE2KchBn139gpOhda6CpnoIRkoUyARv4+1NSK0E/ix6go8LYECgYEA/Ms0vK7NkbhuMLxcDTlFPoQwAG+S93D4gJYJCS6gdCz5fkUGYKfUccLmsxjDFELhwG0IhEk4h+/g9z/tOZ7LkwzT/oGU00NlRvptCLSuDfROl21NEBEXlCfHdFvIUzjBy/IqavWlNlgmqnKgx71H3ySQ1Jt1G7dfYhxo7zsbyzcCgYEAj7LUnUuS4eKo0xeS3oW9kPbcef1Ap7miA1CF5E7WqlsE1AZZlFPqfQIPFNeMn2tvj9s/L27H5XFFGkmwDfVlceJEx4NUlDx8EPs6RJk5MKay8PHuHPB1FpJYWsNTkaGr+kYeztNo3+KT6G85sChJXEUoe2JoO3IJfWQTxoMWzt0CgYA6FS6O09Mj0i5vQDgeSbRhQtoMn5YzCF/wm4iD9ZSkXNkObCmk96rWYKPFLsFT3HImVmcIjhJRGYqlBKkq/hNkPCRRa9CYIfoZLtzyjSEYz7NnE5QLRwIV5nXrhFMo2/ebNo8MeFh3fhWUQDY07oae/LXSQ83Kin19+20Y2onuTQKBgGGpe8DvxQMKZg0Zf3MG2EB21n9+NHwJuOehyW3SeyjKtWxYaHdb1Qli5dcXa/ZJMUhHDRlypB73LazhGetStcCBtJcYVdpthTCRXheTP4AmO4VwF5HJhvpxOeVtzRU0GMr+7x9IJYXL2xRky4NCziEMy6eXyRlltrdm1d3b6BttAoGBAPkw2uoPuADdwCa3HJYYWboND0usMxKZkrmXC43ihl1k2Hyl2uFhqnSr2ITDRWBO/ZvbzpaHC/XOl+YzEn3IfCgSNN5otEp57rIF3vOEqyQgN6I5T3Cj226Zb8GyZGIjnqv5/cztrbv2h3PDHafvGnN8eYF0kZ+JVUHcUDERZqSy",
+    "ali_public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuZDb9hRGE5eoPJzV70WQWcKrQnkdJG3N6bTOdgjn7oeUOV3nlzW6DUsioRugInElyvnYcGmRb1pSo/oRxewQFODzc1uMlvRQrbl4pQfwuuRxyxFRxN4xBNuqhGs3qZfWLaaYb0VY3BfgB8ybyaxVxmZxO+I++TwGhzFMFkINfvx0LSUD+9DUxlsFoo9+/kA8n71L3u3pDA3ycEgpSs4WQv2GfXJTl8nkqCOY0/NE6/gN6IGeuEwgRilfzNdVhL8XL2mxFOROboCxK3MLXGxVMBCFwt1BteLSuefLxHjjZrEoM8lFAgXTFJCfwi70nEelAHmncumTMYgm2TTimo9LAQIDAQAB",
+    "notify_url": "http://127.0.0.1:58888/api/v1/alipay/notify",
+    "return_url": "http://127.0.0.1:58888/api/v1/alipay/notify"
+  },
+  "jaeger": {
+    "port": 6831,
+    "host": "192.168.198.200",
+    "name": "orderAPI"
+  }
+}

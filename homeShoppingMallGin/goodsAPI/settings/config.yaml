@@ -1,0 +1,8 @@
+nacos:
+  NamespaceID: "7e678342-eac2-4011-9853-8b52a1bdc221"
+  IP: "1.116.45.13"
+  Port: 8848
+  user: "nacos"
+  password: "nacos"
+  DataID: "goodsAPIDevJson"
+  Group: "dev"

@@ -1,0 +1,106 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+service order {
+  // 购物车
+  rpc CheckShoppingCar(UserInfo) returns (ShoppingCarListResponse); // 查看购物车
+  rpc CreateShoppingCar(CreateCarRequest) returns (ShoppingCarInfo); // 添加购物车
+  rpc UpdateShoppingCar(CreateCarRequest) returns (OrderEmpty); // 更新购物车
+  rpc DeleteShoppingCar(DeleteCarRequest) returns (OrderEmpty); // 删除购物车
+  // 订单
+  rpc CheckOrder(OrderFilterInfo) returns (OrderListResponse);// 查看订单
+  rpc CreateOrder(CreateOrderInfo) returns (OrderInfoResponse);// 创建订单
+  rpc CheckOrderDetail(OrderDetailInfoRequest) returns(OrderDetailResponse); // 查看订单详情
+  rpc UpdateOrderStatus(OrderInfo) returns(OrderEmpty); // 修改订单状态
+}
+
+message UserInfo {
+  int64 UserID = 1;
+}
+
+message OrderInfo {
+  string name = 1;
+  string orderSn = 2;
+  string status = 3;
+}
+
+message OrderItemResponse {
+  string ordersID = 1;
+  string goodsName = 2;
+  int64 price = 3;
+  int64 nums = 4;
+}
+
+message OrderDetailResponse {
+  OrderInfoResponse orderInfoResponse = 1;
+  repeated OrderItemResponse goods = 2;
+}
+
+message OrderListResponse {
+  int64 total = 1;
+  repeated OrderInfoResponse orderInfoResponse = 2;
+}
+
+message OrderFilterInfo {
+  int64 userID = 1;
+  int64 pn = 2;
+  int64 pSize = 3;
+}
+
+message OrderInfoResponse {
+  int64 id = 1; // 数据库ID
+  int64 userID = 2; // 用户根据雪花算法生成ID
+  int64 allPrice = 3; // 商品加起来的总金额
+  int64 orderSn = 4; // 这个是支付宝支付后传过来的订单号
+  string address = 5; // 买家地址
+  string name = 6; // 买家姓名
+  string mobile = 7; // 买家手机
+  string message = 8; // 买家留言
+  string payType = 9; // 支付方式
+  string status = 10; // 订单未支付等状态
+}
+
+message OrderDetailInfoRequest {
+  string orderGoodsNum = 1; // 商品订单号
+}
+
+message CreateOrderInfo {
+  int64 userID = 1; // 用户根据雪花算法生成ID
+  string address = 2; // 买家地址
+  string name = 3; // 买家姓名
+  string mobile = 4; // 买家手机
+  string message = 5; // 买家留言
+}
+
+message OrderEmpty {
+
+}
+
+message DeleteCarRequest {
+  int64 userID = 1;
+  repeated string goods = 2;
+}
+
+message CreateCarRequest {
+  int64 userID = 1;
+  string goods = 2;
+  int32 nums = 3;
+  bool selected = 4;
+}
+
+message ShoppingCarInfoRequest {
+  int64 userID = 1;
+}
+
+message ShoppingCarListResponse {
+  int32 total = 1;
+  repeated ShoppingCarInfo shoppingCarInfo = 2;
+}
+
+message ShoppingCarInfo {
+  int64 userID = 1;
+  int32 goodsNum = 2;
+  string goods = 3;
+  bool selected = 4;
+}

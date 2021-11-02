@@ -1,0 +1,28 @@
+{
+  "host": "127.0.0.1",
+  "port": 55556,
+  "mode": "dev",
+  "logger": {
+    "level": "debug",
+    "filename": "goods.log",
+    "maxSize": 200,
+    "maxAge": 30,
+    "maxBackups": 7
+  },
+  "consul": {
+    "host": "120.26.67.141",
+    "healthHost": "192.168.12.134",
+    "port": 8500,
+    "Name": "goodsServer",
+    "GinName": "goodsGin",
+    "Tag": [
+      "yuki",
+      "ice"
+    ]
+  },
+  "jaeger": {
+    "port": 6831,
+    "host": "120.26.67.141",
+    "name": "goosAPI"
+  }
+}

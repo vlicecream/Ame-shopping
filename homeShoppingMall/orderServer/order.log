@@ -1,0 +1,643 @@
+{"level":"ERROR","time":"2021-10-09T21:24:44.706+0800","caller":"handler/order.go:29","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"missing destination name goods_nums in *[]models.ShoppingCarInfo"}
+{"level":"INFO","time":"2021-10-09T21:26:02.665+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:27:05.716+0800","caller":"handler/order.go:29","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"missing destination name selected in *[]models.ShoppingCarInfo"}
+{"level":"INFO","time":"2021-10-09T21:28:14.133+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:35:43.734+0800","caller":"handler/order.go:64","msg":"order.handler.order  CreateShoppingCar.mysql.DB.Exec failed","error":"Error 1054: Unknown column 'goods_num' in 'field list'"}
+{"level":"INFO","time":"2021-10-09T21:36:04.477+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:36:19.290+0800","caller":"handler/order.go:64","msg":"order.handler.order  CreateShoppingCar.mysql.DB.Exec failed","error":"sql: expected 4 arguments, got 3"}
+{"level":"INFO","time":"2021-10-09T21:36:53.227+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:39:10.771+0800","caller":"handler/order.go:95","msg":"order.handler.order  CreateShoppingCar.mysql.DB.Exec failed","error":"Error 1054: Unknown column 'goods_num' in 'field list'"}
+{"level":"INFO","time":"2021-10-09T21:39:24.641+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T21:51:29.367+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T21:53:38.489+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T21:54:21.007+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T21:57:25.556+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:58:49.351+0800","caller":"handler/order.go:101","msg":"order.handler.order  CreateShoppingCar.mysql.DB.Exec failed","error":"Error 1054: Unknown column 'good' in 'where clause'"}
+{"level":"INFO","time":"2021-10-09T21:58:58.785+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T22:08:04.762+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T22:08:17.302+0800","caller":"handler/order.go:114","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"}
+{"level":"ERROR","time":"2021-10-09T22:08:31.763+0800","caller":"handler/order.go:114","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"}
+{"level":"INFO","time":"2021-10-09T22:09:32.740+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T22:23:04.243+0800","caller":"handler/order.go:261","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"订单不存在"}
+{"level":"INFO","time":"2021-10-09T22:24:05.965+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T22:39:56.430+0800","caller":"handler/order.go:280","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: Scan error on column index 5, name \"goods_image\": unsupported Scan, storing driver.Value type []uint8 into type *[]string"}
+{"level":"INFO","time":"2021-10-09T22:48:02.116+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T22:55:43.010+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T22:56:49.855+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T22:57:08.184+0800","caller":"handler/order.go:234","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-09T23:00:50.885+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:08:45.364+0800","caller":"handler/order.go:235","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-09T23:16:31.437+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:16:43.085+0800","caller":"handler/order.go:237","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-09T23:18:40.033+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:19:19.508+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-09T23:20:31.863+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-09T23:20:59.253+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-09T23:24:43.299+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-09T23:26:44.272+0800","caller":"handler/order.go:187","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = sql: Scan error on column index 3, name \"promotion_price\": converting driver.Value type []uint8 (\"\") to a int64: invalid syntax"}
+{"level":"ERROR","time":"2021-10-09T23:31:25.976+0800","caller":"handler/order.go:187","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = scannable dest type slice with >1 columns (14) in result"}
+{"level":"ERROR","time":"2021-10-09T23:33:21.425+0800","caller":"handler/order.go:187","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = sql: Scan error on column index 3, name \"promotion_price\": converting driver.Value type []uint8 (\"\") to a int64: invalid syntax"}
+{"level":"ERROR","time":"2021-10-09T23:35:51.575+0800","caller":"handler/order.go:207","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 库存不够,请联系商家补充"}
+{"level":"INFO","time":"2021-10-09T23:39:37.090+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:42:30.628+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-09T23:43:50.825+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:10:01.810+0800","caller":"handler/order.go:206","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 没有这个商品"}
+{"level":"WARN","time":"2021-10-10T00:11:21.332+0800","caller":"handler/order.go:236","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-10T00:13:02.671+0800","caller":"handler/order.go:251","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:13:02.671+0800","caller":"handler/order.go:232","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:13:59.833+0800","caller":"handler/order.go:251","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:13:59.834+0800","caller":"handler/order.go:232","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:15:34.489+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:16:03.705+0800","caller":"handler/order.go:252","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:16:03.706+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:17:15.230+0800","caller":"handler/order.go:252","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:17:15.230+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"WARN","time":"2021-10-10T00:17:47.275+0800","caller":"handler/order.go:237","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-10T00:22:47.123+0800","caller":"handler/order.go:237","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-10T00:23:31.348+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:23:44.802+0800","caller":"handler/order.go:254","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:23:44.803+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:24:23.077+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:24:39.896+0800","caller":"handler/order.go:255","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:24:39.896+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:26:47.181+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:26:58.182+0800","caller":"handler/order.go:255","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:26:58.183+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:28:21.257+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:28:33.275+0800","caller":"handler/order.go:255","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:28:33.276+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:29:57.045+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:30:09.709+0800","caller":"handler/order.go:255","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:30:09.709+0800","caller":"handler/order.go:233","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:31:33.484+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:32:02.208+0800","caller":"handler/order.go:252","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:32:02.209+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:32:56.024+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:33:17.605+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:33:17.606+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:34:24.910+0800","caller":"handler/order.go:187","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = scannable dest type slice with >1 columns (14) in result"}
+{"level":"ERROR","time":"2021-10-10T00:35:38.511+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:35:38.511+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:36:37.059+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:36:37.060+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:38:11.612+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:38:11.612+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:39:24.417+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:39:24.417+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:41:02.727+0800","caller":"handler/order.go:187","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unavailable desc = last resolver error: produced zero addresses"}
+{"level":"ERROR","time":"2021-10-10T00:41:10.039+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:41:10.039+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:41:40.424+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:41:40.424+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:42:29.089+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:42:29.089+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:45:06.689+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:45:06.689+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:45:30.368+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:45:46.628+0800","caller":"handler/order.go:250","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:45:46.628+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:46:27.169+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:46:54.635+0800","caller":"handler/order.go:253","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:46:54.635+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"INFO","time":"2021-10-10T00:47:54.053+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T00:48:12.155+0800","caller":"handler/order.go:251","msg":"order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单商品信息创建失败"}
+{"level":"ERROR","time":"2021-10-10T00:48:12.156+0800","caller":"handler/order.go:231","msg":"inventoryServer.handler Sell rollback","error":"订单商品信息创建失败"}
+{"level":"WARN","time":"2021-10-10T00:49:58.985+0800","caller":"handler/order.go:235","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-10T00:50:09.457+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T14:54:58.997+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T15:29:58.988+0800","caller":"handler/order.go:133","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"没有任何订单"}
+{"level":"ERROR","time":"2021-10-10T15:30:22.369+0800","caller":"handler/order.go:133","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"没有任何订单"}
+{"level":"INFO","time":"2021-10-10T15:31:41.928+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T15:31:57.140+0800","caller":"handler/order.go:132","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: Scan error on column index 3, name \"pay_type\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-10T15:32:30.554+0800","caller":"handler/order.go:132","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: Scan error on column index 4, name \"status\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-10T15:33:08.681+0800","caller":"handler/order.go:132","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-10T15:33:19.770+0800","caller":"handler/order.go:132","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: Scan error on column index 10, name \"message\": converting NULL to string is unsupported"}
+{"level":"INFO","time":"2021-10-10T15:34:36.096+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T15:43:41.004+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T15:54:40.974+0800","caller":"handler/order.go:272","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"订单不存在"}
+{"level":"INFO","time":"2021-10-10T15:56:02.814+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T15:56:23.568+0800","caller":"handler/order.go:271","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-10T15:57:14.980+0800","caller":"handler/order.go:271","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-10T15:57:28.830+0800","caller":"handler/order.go:271","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-10T15:59:39.891+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-10T15:59:55.018+0800","caller":"handler/order.go:271","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-10T16:03:00.439+0800","caller":"handler/order.go:271","msg":"order.handler.order  DeleteShoppingCar.mysql.DB.Exec failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-10T16:10:02.235+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T16:14:02.839+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T16:24:42.791+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-10T17:02:53.075+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-10T17:10:16.330+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-14T17:12:12.474+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T17:20:31.305+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T17:24:14.916+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T17:26:47.309+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:27:19.980+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:32:57.858+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:33:46.224+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:36:13.857+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:39:14.166+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:43:02.563+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:43:35.332+0800","caller":"handler/order.go:328","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"INFO","time":"2021-10-14T18:46:37.030+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-14T18:46:45.895+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:46:53.491+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T18:48:33.036+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T18:49:37.920+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T18:50:27.988+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:51:23.893+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T18:53:04.655+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:53:37.042+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T18:54:18.212+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:54:50.335+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T18:56:25.646+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T18:57:09.746+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T19:01:05.560+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T19:01:15.677+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T19:01:56.227+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T19:03:14.827+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-14T19:03:38.686+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T19:03:56.794+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T19:04:39.272+0800","caller":"handler/order.go:329","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"INFO","time":"2021-10-14T19:05:32.398+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-14T19:24:28.315+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T19:25:48.547+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T19:28:09.306+0800","caller":"handler/order.go:328","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"WARN","time":"2021-10-14T19:41:05.035+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T20:17:23.968+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-14T20:18:27.307+0800","caller":"handler/order.go:238","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-14T20:19:40.385+0800","caller":"handler/order.go:328","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"INFO","time":"2021-10-14T22:15:50.665+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T19:29:00.690+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T22:33:29.739+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T23:36:28.384+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:14:42.604+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:30:45.094+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T12:45:22.311+0800","caller":"orderServer/main.go:93","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T23:08:42.075+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T09:03:57.202+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T12:46:35.797+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T20:57:56.803+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T21:08:52.064+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-18T21:26:22.650+0800","caller":"handler/order.go:349","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"ERROR","time":"2021-10-18T22:19:40.925+0800","caller":"handler/order.go:349","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"ERROR","time":"2021-10-18T22:25:02.893+0800","caller":"handler/order.go:349","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"INFO","time":"2021-10-18T22:25:25.662+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T22:25:36.051+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-18T22:25:55.442+0800","caller":"handler/order.go:91","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 创建数据失败"}
+{"level":"WARN","time":"2021-10-18T22:38:03.665+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:39:00.943+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:40:36.599+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:43:41.108+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:46:03.249+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:47:24.316+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:49:46.383+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:50:43.723+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:51:07.376+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:52:29.645+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T22:54:10.021+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:02:22.483+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:02:38.097+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:05:37.660+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:05:50.048+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:06:24.882+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:06:36.910+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:10:06.801+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:10:16.724+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:11:36.319+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:12:49.443+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:13:42.597+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:14:22.998+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-18T23:16:15.228+0800","caller":"handler/order.go:72","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = expected slice but got struct"}
+{"level":"INFO","time":"2021-10-18T23:19:20.712+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-18T23:19:51.972+0800","caller":"handler/order.go:73","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = expected slice but got struct"}
+{"level":"ERROR","time":"2021-10-18T23:21:44.825+0800","caller":"handler/order.go:73","msg":"计算失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = Error 1054: Unknown column 'name' in 'where clause'"}
+{"level":"WARN","time":"2021-10-18T23:22:27.056+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:22:43.090+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:23:06.872+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:24:59.382+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:29:40.178+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:29:51.429+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:33:11.586+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:36:06.151+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:36:18.512+0800","caller":"handler/order.go:113","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:46:28.509+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:46:37.581+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-18T23:50:17.181+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:50:35.500+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:54:08.062+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-18T23:54:47.771+0800","caller":"handler/order.go:165","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"ERROR","time":"2021-10-18T23:54:47.795+0800","caller":"handler/order.go:165","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"ERROR","time":"2021-10-18T23:54:59.024+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = Error 1205: Lock wait timeout exceeded; try restarting transaction"}
+{"level":"WARN","time":"2021-10-18T23:55:57.962+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:57:31.616+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-18T23:58:15.310+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:03:18.752+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:04:34.031+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:06:14.444+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:07:22.457+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:07:38.367+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T00:11:01.300+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T00:11:10.177+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T00:11:19.633+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T00:11:28.822+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T00:13:48.115+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T00:13:59.660+0800","caller":"handler/order.go:114","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T00:14:42.770+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T00:14:55.786+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:15:41.551+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:16:49.717+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-19T00:17:47.719+0800","caller":"handler/order.go:165","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"ERROR","time":"2021-10-19T00:18:21.373+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 创建数据失败"}
+{"level":"ERROR","time":"2021-10-19T00:18:47.718+0800","caller":"handler/order.go:165","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"ERROR","time":"2021-10-19T00:18:49.397+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 创建数据失败"}
+{"level":"ERROR","time":"2021-10-19T00:22:47.716+0800","caller":"handler/order.go:165","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"ERROR","time":"2021-10-19T00:23:18.522+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 创建数据失败"}
+{"level":"INFO","time":"2021-10-19T00:24:34.137+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T00:27:51.724+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:30:15.510+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T00:32:04.579+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T00:32:45.164+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T08:55:07.628+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T08:58:31.324+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-19T09:03:00.010+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 库存不够,请联系商家补充"}
+{"level":"WARN","time":"2021-10-19T09:03:46.162+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"ERROR","time":"2021-10-19T09:05:27.494+0800","caller":"handler/order.go:93","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Unknown desc = 库存不够,请联系商家补充"}
+{"level":"WARN","time":"2021-10-19T09:06:34.409+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"WARN","time":"2021-10-19T09:10:20.199+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T09:13:01.630+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-19T09:13:34.606+0800","caller":"handler/order.go:115","msg":"inventoryServer.handler ReBack commit"}
+{"level":"INFO","time":"2021-10-19T09:30:26.498+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T09:53:39.858+0800","caller":"handler/order.go:91","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"ERROR","time":"2021-10-19T09:54:27.204+0800","caller":"handler/order.go:91","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"ERROR","time":"2021-10-19T09:55:56.510+0800","caller":"handler/order.go:91","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:16:12.908+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:16:25.365+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:17:02.639+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:17:10.923+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:18:09.022+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:18:17.161+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:20:40.746+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:21:35.806+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"ERROR","time":"2021-10-19T10:21:49.038+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:22:59.862+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:23:07.024+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:23:34.668+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:23:45.835+0800","caller":"handler/order.go:98","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:25:00.963+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:25:08.946+0800","caller":"handler/order.go:97","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:29:15.317+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T10:33:28.075+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:33:37.402+0800","caller":"handler/order.go:96","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"ERROR","time":"2021-10-19T10:34:30.211+0800","caller":"handler/order.go:96","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:54:59.623+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:55:48.133+0800","caller":"handler/order.go:96","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T10:56:52.827+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T10:57:01.880+0800","caller":"handler/order.go:96","msg":"库存扣减失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"rpc error: code = Internal desc = grpc: error while marshaling: proto: Marshal called with nil"}
+{"level":"INFO","time":"2021-10-19T11:01:33.832+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:06:12.900+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T11:06:47.673+0800","caller":"handler/order.go:172","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"INFO","time":"2021-10-19T11:36:09.894+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:36:54.318+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:39:00.491+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:48:54.854+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:54:13.161+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:55:57.466+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T11:59:51.401+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T12:00:47.675+0800","caller":"handler/order.go:172","msg":"orderServer order CheckLocalTransaction mysql.DB.Get failed","error":"订单不存在，回查消息不成功"}
+{"level":"INFO","time":"2021-10-19T12:18:43.323+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T12:22:56.980+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T15:52:40.047+0800","caller":"orderServer/main.go:97","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T16:06:21.075+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:06:26.289+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:06:56.199+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:07:06.196+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:07:06.232+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:07:36.229+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:07:36.267+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:08:19.778+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:08:29.815+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:08:36.262+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:08:36.308+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:08:59.849+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T16:08:59.966+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:09:06.674+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:09:19.367+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:09:29.403+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T16:09:37.826+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:09:57.641+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:09:59.441+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:09:59.888+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:06.711+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:07.681+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:36.301+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:36.350+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:37.724+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:10:59.483+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: Scan error on column index 6, name \"alipay_order_num\": converting NULL to string is unsupported"}
+{"level":"ERROR","time":"2021-10-19T16:11:37.764+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:11:59.933+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:12:06.753+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T16:12:27.985+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:12:59.527+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:13:03.421+0800","caller":"handler/order.go:507","msg":"数据库查询失败"}
+{"level":"ERROR","time":"2021-10-19T16:13:13.524+0800","caller":"handler/order.go:507","msg":"数据库查询失败"}
+{"level":"ERROR","time":"2021-10-19T16:13:36.347+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:13:36.394+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:13:37.809+0800","caller":"handler/order.go:482","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:13:43.662+0800","caller":"handler/order.go:507","msg":"数据库查询失败"}
+{"level":"INFO","time":"2021-10-19T16:14:10.653+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:15:07.472+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:15:58.225+0800","caller":"handler/order.go:507","msg":"数据库查询失败"}
+{"level":"ERROR","time":"2021-10-19T16:15:59.568+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:16:37.902+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:16:58.789+0800","caller":"handler/order.go:507","msg":"数据库查询失败"}
+{"level":"ERROR","time":"2021-10-19T16:17:15.178+0800","caller":"handler/order.go:127","msg":"订单创建失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单创建失败"}
+{"level":"ERROR","time":"2021-10-19T16:17:36.385+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:17:36.430+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:17:58.339+0800","caller":"handler/order.go:504","msg":"p.Start() failed","error":"invalid connection"}
+{"level":"ERROR","time":"2021-10-19T16:17:58.342+0800","caller":"handler/order.go:122","msg":"order tx.Rollback failed","error":"invalid connection"}
+{"level":"ERROR","time":"2021-10-19T16:17:58.342+0800","caller":"handler/order.go:127","msg":"订单创建失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单创建失败"}
+{"level":"INFO","time":"2021-10-19T16:19:09.993+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:22:31.870+0800","caller":"handler/order.go:127","msg":"订单创建失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单创建失败"}
+{"level":"ERROR","time":"2021-10-19T16:22:36.429+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:22:36.476+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:28:39.799+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"Error 1317: Query execution was interrupted"}
+{"level":"ERROR","time":"2021-10-19T16:28:39.801+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"invalid connection"}
+{"level":"INFO","time":"2021-10-19T16:29:15.725+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:35:39.899+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:35:39.905+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T16:38:05.678+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T16:40:51.861+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:43:40.027+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:43:40.031+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T16:45:41.532+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T16:52:40.177+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T16:52:40.183+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:02:40.316+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:02:40.326+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:07:33.138+0800","caller":"handler/order.go:127","msg":"订单创建失败 order.handler.order  CheckShoppingCar.mysql.DB.Select failed","error":"订单创建失败"}
+{"level":"INFO","time":"2021-10-19T17:11:55.606+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T17:22:40.347+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:22:40.430+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:52:40.375+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-19T17:52:40.455+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-19T17:59:37.133+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T18:00:18.068+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-20T11:44:54.384+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-20T11:57:12.991+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-20T15:53:46.799+0800","caller":"handler/order.go:481","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-20T16:23:37.442+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T16:26:57.594+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-20T16:27:25.085+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:27:35.137+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:28:05.179+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:29:05.224+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:30:27.580+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:30:37.629+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:30:45.463+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:30:55.507+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:31:05.282+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:31:07.679+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:31:25.549+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:32:07.728+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:32:25.593+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:32:35.219+0800","caller":"handler/order.go:467","msg":"修改订单失败 order.handler.order  UpdateOrderSelected.mysql.DB.Exec failed","error":"Error 1265: Data truncated for column 'status' at row 1"}
+{"level":"ERROR","time":"2021-10-20T16:34:05.326+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:34:07.771+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:34:25.637+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:37:07.812+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:37:25.681+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:37:32.883+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:37:42.928+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:38:05.366+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:38:12.968+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:38:50.247+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:39:00.297+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:39:13.021+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:39:30.339+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:40:30.384+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:41:07.854+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:41:13.065+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:41:25.721+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:42:30.427+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:43:05.403+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:44:13.107+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:45:30.467+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:46:07.894+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:46:25.769+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:48:13.149+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:49:05.443+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:49:30.519+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:49:56.498+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:06.544+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:29.013+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:36.585+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:39.067+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:39.838+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:50:49.879+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:51:09.120+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:51:19.919+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:51:36.628+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:52:07.931+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:52:09.163+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:52:19.968+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:52:25.819+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:53:13.188+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:53:36.669+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:53:53.003+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:54:03.102+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:54:09.202+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:54:20.017+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:54:30.558+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:54:33.142+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:55:33.192+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:56:05.484+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:56:36.717+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:09.243+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:10.847+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:20.058+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:20.887+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:33.237+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:50.929+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:57:57.354+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:58:07.397+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:58:37.437+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:58:50.970+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:59:07.971+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:59:13.226+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:59:25.856+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T16:59:37.476+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:02:25.324+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:02:26.355+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:02:36.395+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:03:06.435+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:04:05.521+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:04:06.476+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:04:45.812+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:04:55.853+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:05:25.407+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:05:25.450+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:05:25.891+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:06:06.514+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:06:13.264+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:06:25.382+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:06:25.940+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:07:08.011+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:07:25.397+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:07:25.427+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:07:25.541+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:07:25.895+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:08:25.995+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:09:06.563+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:09:25.367+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:09:25.450+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:09:25.485+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:11:25.421+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:11:26.046+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:13:05.567+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:13:06.598+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:13:25.442+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:13:25.465+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:13:25.582+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:14:13.302+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:14:25.487+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:14:25.521+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:15:26.091+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:16:08.047+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:16:25.934+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:17:25.419+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:17:25.458+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:18:06.636+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:25.485+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:25.506+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:25.523+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:25.558+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:25.629+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:20:26.126+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:23:05.608+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:23:13.335+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:24:06.675+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:24:25.493+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:26:08.083+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:26:25.452+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:26:25.978+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:26:26.162+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:27:25.561+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:27:25.594+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:28:25.523+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:28:25.539+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:28:25.666+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:31:06.721+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:32:25.539+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:33:13.368+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:33:26.196+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:35:25.594+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:35:25.630+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:36:25.485+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:37:25.565+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:37:25.575+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:37:25.704+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:39:06.765+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:41:25.579+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:41:26.241+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:43:05.640+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:44:25.627+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:44:25.668+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:46:08.111+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:46:26.014+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:47:25.624+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:47:25.638+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:47:25.736+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:48:06.803+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:50:26.275+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:51:25.615+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:53:13.397+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:54:25.660+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:54:25.709+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:56:25.528+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T17:58:06.835+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:00:26.308+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:07:25.653+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:07:25.672+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:07:25.770+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:11:25.657+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:13:05.665+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:14:25.690+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:14:25.739+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:16:08.146+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:16:26.040+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:18:06.869+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:20:26.339+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:23:13.427+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:26:25.559+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:37:25.684+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:37:25.707+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:37:25.799+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:41:25.688+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:44:25.716+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:44:25.763+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:48:06.900+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T18:50:26.369+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:13:05.678+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:16:08.158+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:16:26.055+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:23:13.439+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:26:25.575+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:37:25.699+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:37:25.733+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:37:25.811+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:41:25.711+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:44:25.729+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:44:25.785+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:48:06.910+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T19:50:26.395+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:13:05.666+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:16:08.150+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:16:26.045+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:23:13.430+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:26:25.563+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:37:25.695+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:37:25.722+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:37:25.799+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:41:25.697+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:44:25.718+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:44:25.775+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:48:06.902+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-20T21:50:26.384+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-20T23:39:02.340+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-21T22:49:11.676+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-21T22:50:16.117+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-21T23:16:09.153+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:16:19.202+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:16:49.245+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:17:49.298+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:19:49.347+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:22:49.392+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:26:49.442+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T23:31:49.514+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-21T23:31:50.127+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-22T20:58:34.592+0800","caller":"handler/order.go:486","msg":"数据库获取数据失败","error":"Error 1146: Table 'ame.order_info' doesn't exist"}
+{"level":"INFO","time":"2021-10-22T21:01:37.301+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-23T00:57:32.653+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T18:49:23.770+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T18:54:02.850+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T18:58:45.617+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-24T19:02:54.574+0800","caller":"handler/order.go:391","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"ERROR","time":"2021-10-24T19:08:09.046+0800","caller":"handler/order.go:391","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"INFO","time":"2021-10-24T19:08:52.566+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-24T19:10:42.643+0800","caller":"handler/order.go:390","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"ERROR","time":"2021-10-24T19:13:11.822+0800","caller":"handler/order.go:390","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"ERROR","time":"2021-10-24T19:15:33.075+0800","caller":"handler/order.go:390","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"INFO","time":"2021-10-24T19:16:24.473+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-24T19:17:01.102+0800","caller":"handler/order.go:392","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"INFO","time":"2021-10-24T19:21:16.407+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-24T19:21:38.519+0800","caller":"handler/order.go:391","msg":"orderServer order CreateOrder p.SendMessageInTransaction failed","error":"the topic=order route info not found"}
+{"level":"INFO","time":"2021-10-24T19:22:41.299+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:24:06.044+0800","caller":"orderServer/main.go:115","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:24:54.297+0800","caller":"orderServer/main.go:115","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:25:36.797+0800","caller":"orderServer/main.go:115","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:26:15.915+0800","caller":"orderServer/main.go:115","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:29:03.206+0800","caller":"orderServer/main.go:115","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:44:08.449+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T19:49:38.805+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T20:23:23.191+0800","caller":"orderServer/main.go:113","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T20:26:29.356+0800","caller":"orderServer/main.go:113","msg":"注销成功"}

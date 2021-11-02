@@ -1,0 +1,145 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+service GoodsServer {
+  // 商品详情接口
+  rpc GetClassifyGoods(ClassifyGoodsInfoRequest) returns (GoodsListResponse); // 分类查询商品
+  rpc BatchGetGoods(BathGoodsNameInfoRequest) returns (GoodsListResponse); // 批量获取购物商品
+  rpc CreateGoodsInfo(GoodsCreateInfoRequest) returns (GoodsInfoResponse); // 新增商品
+  rpc UpdateGoodsInfo(GoodsCreateInfoRequest) returns (GoodsEmpty); // 更新商品
+  rpc DeleteGoodsInfo(GoodsDeleteInfoRequest) returns (GoodsEmpty); //删除商品
+  // 商品分类接口
+  rpc GetClassifyInfo(GoodsEmpty) returns(ClassifyListResponse); // 拿到所有一级分类
+  rpc GetChildClassifyInfo(ClassifyChildInfoRequest) returns(ChildClassifyListResponse); // 拿到子分类
+  rpc CreateClassifyInfo(ClassifyCreateInfoRequest) returns(ClassifyInfoResponse); // 新增分类
+  rpc UpdateClassifyInfo(ClassifyUpdateInfoRequest) returns(GoodsEmpty); // 更新分类
+  rpc DeleteClassifyInfo(ClassifyDeleteInfoRequest) returns(GoodsEmpty); // 删除分类
+  // 轮播图接口
+  rpc GetBannerInfo(GoodsEmpty) returns(BannerListResponse); // 拿到所有轮播图
+  rpc CreateBannerInfo(BannerCreateInfoRequest) returns(BannerInfoResponse); // 新增轮播图
+  rpc UpdateBannerInfo(BannerCreateInfoRequest) returns(GoodsEmpty); // 更新轮播图
+  rpc DeleteBannerInfo(BannerDeleteInfoRequest) returns(GoodsEmpty); // 删除轮播图
+}
+
+message ClassifyUpdateInfoRequest {
+  string oldName = 1;
+  string newName = 2;
+  string pName = 3;
+}
+
+message BannerDeleteInfoRequest {
+  int64 level = 1;
+}
+
+message BannerInfoResponse {
+  int64 id = 1;
+  int64 level = 4;
+  string imageUrl = 2;
+  string imageGoodsUrl = 3;
+}
+
+message BannerListResponse {
+  repeated BannerInfoResponse BannerInfo = 1;
+}
+
+message BannerCreateInfoRequest {
+  string imageUrl = 1;
+  string imageGoodsUrl = 2;
+  int64 level = 3;
+}
+
+message GoodsDeleteInfoRequest {
+  string name = 1;
+}
+
+message ClassifyDeleteInfoRequest {
+  string name = 1;
+}
+
+message ClassifyCreateInfoRequest{
+  string name = 1;
+  string pName = 2;
+}
+
+message ChildClassifyListResponse{
+  ClassifyChildInfoRequest info = 1;
+  repeated ClassifyChildInfoRequest listInfo = 2;
+}
+
+message ClassifyListResponse {
+  repeated ClassifyInfoResponse info = 1;
+}
+
+message ClassifyInfoResponse{
+  int64 id = 1;
+  int64 pid = 2;
+  string name = 3;
+}
+
+message ClassifyChildInfoRequest {
+  string Name = 1;
+  string pName = 2;
+}
+
+message GoodsEmpty {}
+
+message BathGoodsNameInfoRequest {
+  repeated string name = 1;
+}
+
+message GoodsCreateInfoRequest {
+  string name = 1;
+  string createTime = 2;
+  string classifyGoods = 3;
+  string goodsIntroduction = 4;
+  int64 goodsPrice = 5;
+  int64 promotionPrice = 6;
+  int64 salesVolume = 7;
+  int64 collectNum = 8;
+  bool isNew = 9;
+  bool isHot = 10;
+  bool isShow = 11; // 后台管理的查询
+  bool isFreightFree = 12;
+  repeated string image = 13;
+}
+
+message ClassifyGoodsInfoRequest {
+  int64 priceMin = 1;
+  int64 priceMax = 2;
+  int64 pn = 9;
+  int64 pSize = 10;
+  string name = 7; // 先提供一个简单的商品名搜索，后面会用es
+  string topClassify = 8; // 商品分类展示
+  bool isNew = 3;
+  bool isHot = 4;
+  bool isShow = 5; // 后台管理的查询
+  bool isFreightFree = 6;
+}
+
+message GoodsInfoResponse {
+  int64 id = 1;
+  int64 salesVolume = 3;
+  int64 collectNum = 4;
+  int64 goodsPrice = 5;
+  int64 promotionPrice = 6;
+  string name = 7;
+  string goodsIntroduction = 8;
+  string createTime = 13;
+  string ClassifyGoods = 14;
+  bool isShow = 9;
+  bool isNew = 10;
+  bool isFreightFree = 11;
+  bool isHot = 12;
+  repeated GoodsImageResponse goodsImageInfo = 15;
+}
+
+message GoodsImageResponse {
+  string imageUrl = 1;
+}
+
+message GoodsListResponse {
+  int64 Total = 1;
+  repeated GoodsInfoResponse goodsInfo = 2;
+}
+

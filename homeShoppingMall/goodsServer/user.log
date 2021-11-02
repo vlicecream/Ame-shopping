@@ -1,0 +1,49 @@
+{"level":"INFO","time":"2021-10-05T15:01:28.539+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T19:05:33.093+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-05T19:11:02.544+0800","caller":"handler/goods.go:111","msg":"handler.good.CreateBannerInfo mysql.DB.Exec failed","error":"sql: expected 3 arguments, got 2"}
+{"level":"INFO","time":"2021-10-05T19:11:43.965+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-05T19:14:42.767+0800","caller":"handler/goods.go:130","msg":"handler.good.CreateBannerInfo mysql.DB.Exec failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into banner(image_url, image_goods_url) values(?, ?, ?) where level = ?' at line 1"}
+{"level":"INFO","time":"2021-10-05T19:16:56.195+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-05T19:17:08.383+0800","caller":"handler/goods.go:130","msg":"handler.good.CreateBannerInfo mysql.DB.Exec failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into banner(image_url, image_goods_url) values(?, ?) where level = ?' at line 1"}
+{"level":"INFO","time":"2021-10-05T19:18:58.738+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T20:08:54.757+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T20:20:57.214+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T20:24:00.040+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T20:24:51.777+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T21:00:37.475+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T21:38:27.301+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-05T21:38:54.423+0800","caller":"handler/goods.go:76","msg":"handler.good.CreateClassifyInfo mysql.DB.Get failed","error":"sql: expected 1 arguments, got 2"}
+{"level":"WARN","time":"2021-10-05T21:39:23.627+0800","caller":"handler/goods.go:76","msg":"handler.good.CreateClassifyInfo mysql.DB.Get failed","error":"sql: expected 1 arguments, got 2"}
+{"level":"INFO","time":"2021-10-05T21:39:58.996+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T21:41:12.465+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T21:41:47.635+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T21:59:41.491+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-05T22:54:40.504+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T14:04:50.297+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T14:59:10.598+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:23:58.401+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"missing destination name classify_name in *[]models.GoodsInfo"}
+{"level":"INFO","time":"2021-10-06T16:25:16.615+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:25:48.022+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"missing destination name is _hot in *[]models.GoodsInfo"}
+{"level":"INFO","time":"2021-10-06T16:27:15.299+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:32:15.535+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%椅子%' at line 1"}
+{"level":"WARN","time":"2021-10-06T16:32:31.129+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%灯光%' at line 1"}
+{"level":"WARN","time":"2021-10-06T16:33:21.949+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1054: Unknown column '灯光' in 'where clause'"}
+{"level":"WARN","time":"2021-10-06T16:34:14.186+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1054: Unknown column '吊灯' in 'where clause'"}
+{"level":"INFO","time":"2021-10-06T16:35:29.545+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T16:36:46.307+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T16:38:27.193+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:38:50.269+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'0'%' at line 1"}
+{"level":"WARN","time":"2021-10-06T16:39:06.761+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'吊灯'%' at line 1"}
+{"level":"INFO","time":"2021-10-06T16:39:19.005+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:39:30.531+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'吊灯'%' at line 1"}
+{"level":"INFO","time":"2021-10-06T16:39:54.255+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T16:40:23.284+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'吊灯'%' at line 1"}
+{"level":"INFO","time":"2021-10-06T16:41:21.868+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T16:55:46.456+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T17:16:50.111+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T19:08:59.682+0800","caller":"handler/goods.go:202","msg":"handler.good.CreateClassifyInfo mysql.DB.Exec failed","error":"sql: expected 9 arguments, got 8"}
+{"level":"WARN","time":"2021-10-06T19:09:14.194+0800","caller":"handler/goods.go:202","msg":"handler.good.CreateClassifyInfo mysql.DB.Exec failed","error":"sql: expected 9 arguments, got 8"}
+{"level":"INFO","time":"2021-10-06T19:09:58.932+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T19:14:12.121+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T20:38:30.678+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T21:29:16.439+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}

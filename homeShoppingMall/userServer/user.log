@@ -1,0 +1,184 @@
+{"level":"INFO","time":"2021-10-03T15:10:55.003+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T15:40:20.790+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T15:58:19.081+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:14:19.142+0800","caller":"userServer/main.go:87","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:16:12.256+0800","caller":"userServer/main.go:87","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:16:32.517+0800","caller":"userServer/main.go:87","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:31:06.306+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:42:01.685+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:50:09.754+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:57:36.311+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T16:58:49.698+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T17:00:49.615+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T17:20:34.927+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:09:27.117+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:11:06.243+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:14:23.495+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:16:40.706+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:31:24.335+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:36:12.990+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T22:49:41.826+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T23:02:08.802+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T23:08:12.131+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-03T23:25:34.250+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T12:11:09.199+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T12:13:51.784+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T12:19:14.897+0800","caller":"handler/user.go:54","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"missing destination name is_delete in *[]models.AllUserInfo"}
+{"level":"INFO","time":"2021-10-04T12:21:50.178+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T12:23:32.216+0800","caller":"handler/user.go:54","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"missing destination name is_delete in *[]models.AllUserInfo"}
+{"level":"INFO","time":"2021-10-04T12:24:21.365+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T12:24:36.987+0800","caller":"handler/user.go:54","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"missing destination name is_delete in *[]models.AllUserInfo"}
+{"level":"INFO","time":"2021-10-04T12:25:43.862+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T12:26:51.858+0800","caller":"handler/user.go:54","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"sql: Scan error on column index 9, name \"is_delete\": unsupported Scan, storing driver.Value type int64 into type *time.Time"}
+{"level":"INFO","time":"2021-10-04T12:27:13.069+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T12:31:35.908+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T12:31:57.971+0800","caller":"handler/user.go:89","msg":"handler.user.GetUserInfoByUserID mysql.DB.Get failed","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"ERROR","time":"2021-10-04T12:33:19.376+0800","caller":"handler/user.go:89","msg":"handler.user.GetUserInfoByUserID mysql.DB.Get failed","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"ERROR","time":"2021-10-04T12:36:28.628+0800","caller":"handler/user.go:89","msg":"handler.user.GetUserInfoByUserID mysql.DB.Get failed","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"ERROR","time":"2021-10-04T12:38:04.256+0800","caller":"handler/user.go:89","msg":"handler.user.GetUserInfoByUserID mysql.DB.Get failed","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"ERROR","time":"2021-10-04T12:38:41.671+0800","caller":"handler/user.go:89","msg":"handler.user.GetUserInfoByUserID mysql.DB.Get failed","error":"must pass a pointer, not a value, to StructScan destination"}
+{"level":"INFO","time":"2021-10-04T12:47:18.518+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T13:32:51.200+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T13:42:12.024+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-04T13:42:49.929+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-04T13:43:43.754+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-04T13:43:53.968+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-04T13:44:10.624+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-04T13:46:52.307+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-04T13:50:58.082+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-04T13:52:30.000+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-04T13:53:28.683+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-04T13:55:49.456+0800","caller":"handler/user.go:70","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-04T14:02:02.437+0800","caller":"userServer/main.go:85","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T16:08:06.602+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T16:08:40.684+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T16:31:37.117+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:03:33.724+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:24:58.157+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:26:02.078+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:27:10.267+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:27:59.768+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-04T17:51:11.993+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-04T17:52:10.704+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-04T18:40:53.279+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-04T18:43:41.965+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-04T18:44:11.389+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-04T18:45:33.076+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-04T18:45:59.495+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-06T21:31:02.614+0800","caller":"userServer/main.go:40","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-06T21:32:23.135+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T21:50:06.892+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-07T14:49:01.562+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-07T15:47:58.600+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T17:10:21.714+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-14T22:15:54.298+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T19:28:56.174+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T22:33:27.922+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T23:36:30.422+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:14:41.649+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:30:43.461+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-16T12:47:26.442+0800","caller":"userServer/main.go:40","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-16T12:52:34.934+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:01:57.149+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:04:53.404+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:07:11.034+0800","caller":"userServer/main.go:92","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:26:58.833+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:06:01.326+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:08:39.854+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:10:44.834+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:13:29.771+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:15:22.157+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:50:36.759+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:58:06.736+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T14:58:23.259+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T15:01:41.961+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T16:04:03.055+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T16:06:27.731+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-16T16:35:02.295+0800","caller":"handler/user.go:74","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"搜素不到用户数据"}
+{"level":"WARN","time":"2021-10-16T16:35:05.571+0800","caller":"handler/user.go:74","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"搜素不到用户数据"}
+{"level":"INFO","time":"2021-10-16T23:08:42.260+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T09:03:55.434+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T10:25:05.558+0800","caller":"handler/user.go:74","msg":"handler.user.GetAllUserList mysql.DB.Select failed","error":"搜素不到用户数据"}
+{"level":"WARN","time":"2021-10-18T10:26:58.833+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T10:31:57.203+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T10:32:03.468+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T10:32:06.421+0800","caller":"handler/user.go:93","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T10:41:08.572+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T10:43:02.806+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T10:43:14.138+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T10:50:07.421+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T10:50:16.357+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T10:52:33.616+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:06:41.823+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:07:16.900+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:08:14.019+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:08:22.093+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:08:43.333+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:10:31.166+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:10:44.262+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:14:15.293+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:16.249+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:16.891+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:20.452+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:21.337+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:22.065+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:23.194+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:23.639+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:24.088+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:24.529+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:24.966+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:25.341+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:25.661+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:14:26.030+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:14:48.201+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:16:26.009+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:17:03.673+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:17:54.266+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:18:27.473+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-18T11:18:54.184+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:20:43.058+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T11:26:35.250+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-18T11:33:20.508+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-18T14:31:39.125+0800","caller":"handler/user.go:167","msg":"handler.user.UpdateUser mysql.DB.Exec failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mobile=? password=? gender=? role=? where user_id = ?' at line 1"}
+{"level":"INFO","time":"2021-10-18T14:32:17.127+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T14:37:08.907+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T20:57:54.031+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T21:08:54.179+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T00:24:34.131+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T00:32:42.304+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T12:22:59.518+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T16:19:12.679+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T17:12:22.449+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T17:17:45.043+0800","caller":"userServer/main.go:47","msg":"Main mysql.Init failed"}
+{"level":"ERROR","time":"2021-10-19T17:18:17.320+0800","caller":"userServer/main.go:47","msg":"Main mysql.Init failed"}
+{"level":"ERROR","time":"2021-10-19T17:21:06.419+0800","caller":"userServer/main.go:47","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-20T11:57:10.023+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T12:15:56.071+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T15:03:52.394+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T18:30:32.926+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-20T18:31:03.163+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-20T18:37:50.331+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-20T18:40:19.083+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-20T18:40:23.035+0800","caller":"handler/user.go:100","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-20T19:55:45.908+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-21T00:06:19.038+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-21T00:42:57.274+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-21T16:07:54.743+0800","caller":"handler/user.go:170","msg":"handler.user.UpdateUser mysql.DB.Exec failed","error":"Error 1406: Data too long for column 'password' at row 1"}
+{"level":"ERROR","time":"2021-10-21T16:12:15.558+0800","caller":"handler/user.go:170","msg":"handler.user.UpdateUser mysql.DB.Exec failed","error":"Error 1406: Data too long for column 'password' at row 1"}
+{"level":"INFO","time":"2021-10-21T16:13:02.979+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-21T16:13:19.489+0800","caller":"handler/user.go:171","msg":"handler.user.UpdateUser mysql.DB.Exec failed","error":"Error 1406: Data too long for column 'password' at row 1"}
+{"level":"ERROR","time":"2021-10-21T16:13:45.782+0800","caller":"handler/user.go:171","msg":"handler.user.UpdateUser mysql.DB.Exec failed","error":"Error 1406: Data too long for column 'password' at row 1"}
+{"level":"INFO","time":"2021-10-21T16:13:50.956+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-21T23:31:50.442+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-22T20:50:49.299+0800","caller":"userServer/main.go:40","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-22T20:56:32.592+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-22T21:45:21.149+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-22T21:50:43.276+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-22T21:50:46.221+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-22T21:50:49.454+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-22T21:59:29.653+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"WARN","time":"2021-10-22T22:01:25.169+0800","caller":"handler/user.go:101","msg":"handler.user.GetUserInfoByMobile mysql.DB.Get failed","error":"搜素不到数据"}
+{"level":"INFO","time":"2021-10-23T00:57:30.448+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T17:01:16.983+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T17:03:12.455+0800","caller":"userServer/main.go:95","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-24T20:26:30.739+0800","caller":"userServer/main.go:95","msg":"注销成功"}

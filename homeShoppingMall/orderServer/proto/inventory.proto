@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+service inventory {
+  rpc SetGoodsInventory(GoodsInfo) returns(InventoryEmpty); // 给商品设置库存
+  rpc GetGoodsInventory(GoodsInfo) returns(GoodsInfo); // 查询商品库存
+  rpc Sell(SellInfo) returns(InventoryEmpty); // 库存扣减
+  rpc ReBack(SellInfo) returns(InventoryEmpty); // 库存归还
+}
+
+message SellInfo {
+  repeated GoodsInfo goodsInfo = 1;
+  string orderGoodsNum = 2;
+}
+
+message GoodsInfo {
+  string goods = 1;
+  int64 inventoryNum = 2;
+}
+
+message InventoryEmpty {}

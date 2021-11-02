@@ -1,0 +1,40 @@
+{
+  "host": "0.0.0.0",
+  "port": 33333,
+  "mode": "dev",
+  "logger": {
+    "level": "debug",
+    "filename": "user.log",
+    "maxSize": 200,
+    "maxAge": 30,
+    "maxBackups": 7
+  },
+  "mysql": {
+    "username": "root",
+    "password": "root",
+    "database": "ame",
+    "host": "120.26.67.141",
+    "port": 3306,
+    "setMaxOpenConns": 200,
+    "setMaxIdleConns": 50
+  },
+  "consul": {
+    "host": "120.26.67.141",
+    "port": 8500,
+    "Name": "userServer",
+    "Tag": [
+      "yuki",
+      "ice"
+    ]
+  },
+  "snowflake": {
+    "startTime": "2021-01-01",
+    "machineID": 1
+  },
+  "redis": {
+    "host": "120.26.67.141",
+    "port": 6379,
+    "dataBase": 0,
+    "password": ""
+  }
+}

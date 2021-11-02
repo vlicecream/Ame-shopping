@@ -1,0 +1,152 @@
+{"level":"WARN","time":"2021-10-06T21:55:04.564+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"WARN","time":"2021-10-06T21:56:42.509+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"WARN","time":"2021-10-06T21:57:41.897+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"WARN","time":"2021-10-06T21:59:02.903+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"WARN","time":"2021-10-06T21:59:26.064+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"INFO","time":"2021-10-06T22:05:46.225+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:10:35.642+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:11:27.317+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:12:45.103+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T22:12:59.724+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where name like '%001%' and is_show = true' at line 1"}
+{"level":"INFO","time":"2021-10-06T22:15:28.670+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:17:40.687+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T22:18:07.171+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1, 1' at line 1"}
+{"level":"WARN","time":"2021-10-06T22:20:46.795+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1, 1' at line 1"}
+{"level":"INFO","time":"2021-10-06T22:21:18.409+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:23:19.221+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-06T22:27:07.332+0800","caller":"handler/goods.go:68","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1065: Query was empty"}
+{"level":"INFO","time":"2021-10-06T22:28:15.989+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-06T22:35:35.091+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:02:20.824+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:04:15.643+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:04:54.799+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:15:21.527+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:16:11.245+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:16:47.318+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:18:18.321+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-07T15:18:32.811+0800","caller":"handler/goods.go:218","msg":"handler.good.CreateGoodsInfo mysql.DB.Get failed","error":"sql: expected 0 arguments, got 1"}
+{"level":"INFO","time":"2021-10-07T15:19:21.857+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-07T15:19:34.450+0800","caller":"handler/goods.go:218","msg":"handler.good.CreateGoodsInfo mysql.DB.Get failed","error":"sql: expected 0 arguments, got 1"}
+{"level":"INFO","time":"2021-10-07T15:20:06.362+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-07T15:20:20.007+0800","caller":"handler/goods.go:218","msg":"handler.good.CreateGoodsInfo mysql.DB.Get failed","error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?''' at line 1"}
+{"level":"INFO","time":"2021-10-07T15:21:39.509+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-07T15:26:04.651+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-07T15:27:00.853+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-07T15:27:12.189+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-07T15:29:03.170+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-07T15:47:51.411+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-07T17:55:44.706+0800","caller":"handler/goods.go:397","msg":"handler.good.CreateBannerInfo mysql.DB.Exec failed","error":"Error 1062: Duplicate entry '5' for key 'inx_level'"}
+{"level":"INFO","time":"2021-10-07T18:10:31.511+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-09T21:03:35.014+0800","caller":"goodsServer/main.go:44","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-09T23:24:13.721+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:26:44.272+0800","caller":"handler/goods.go:109","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"sql: Scan error on column index 3, name \"promotion_price\": converting driver.Value type []uint8 (\"\") to a int64: invalid syntax"}
+{"level":"INFO","time":"2021-10-09T23:31:10.834+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:31:25.976+0800","caller":"handler/goods.go:109","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"scannable dest type slice with >1 columns (14) in result"}
+{"level":"INFO","time":"2021-10-09T23:33:02.320+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-09T23:33:21.424+0800","caller":"handler/goods.go:109","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"sql: Scan error on column index 3, name \"promotion_price\": converting driver.Value type []uint8 (\"\") to a int64: invalid syntax"}
+{"level":"INFO","time":"2021-10-09T23:35:40.757+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-09T23:43:55.191+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:31:26.712+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:32:35.614+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:34:16.198+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-10T00:34:24.909+0800","caller":"handler/goods.go:110","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"scannable dest type slice with >1 columns (14) in result"}
+{"level":"INFO","time":"2021-10-10T00:34:32.548+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:36:27.614+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:38:01.546+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:39:03.070+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:40:48.619+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:42:16.944+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:44:53.229+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:45:37.125+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:45:55.675+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T00:50:11.415+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-10T17:10:20.065+0800","caller":"goodsServer/main.go:82","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-14T22:15:53.387+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T19:28:53.148+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T22:33:26.565+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-15T23:36:29.795+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:14:42.041+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T00:30:43.974+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T12:45:23.982+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:30:05.854+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T13:39:16.460+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T16:11:50.170+0800","caller":"goodsServer/main.go:86","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T16:16:12.117+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-16T23:08:42.082+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T09:03:56.063+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T12:46:34.462+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T15:34:39.023+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-18T15:55:42.688+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-18T15:56:29.076+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-18T15:56:53.321+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-18T16:03:51.477+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T16:05:18.062+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T16:05:53.699+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T16:18:40.246+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T16:18:48.861+0800","caller":"handler/goods.go:362","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"INFO","time":"2021-10-18T16:24:12.979+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T16:24:20.723+0800","caller":"handler/goods.go:439","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"WARN","time":"2021-10-18T16:24:23.187+0800","caller":"handler/goods.go:439","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"WARN","time":"2021-10-18T16:24:52.918+0800","caller":"handler/goods.go:439","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"INFO","time":"2021-10-18T16:25:06.716+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T16:25:59.832+0800","caller":"handler/goods.go:439","msg":"handler.good.DeleteBannerInfo mysql.DB.Exec failed"}
+{"level":"INFO","time":"2021-10-18T16:26:49.944+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T16:27:05.593+0800","caller":"handler/goods.go:439","msg":"handler.good.DeleteBannerInfo mysql.DB.Exec failed"}
+{"level":"WARN","time":"2021-10-18T16:27:48.293+0800","caller":"handler/goods.go:362","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"INFO","time":"2021-10-18T16:49:32.693+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T17:16:32.904+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T17:17:30.161+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T17:18:44.528+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:32:46.884+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:34:26.682+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:42:41.993+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:43:39.262+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:47:37.584+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:53:43.230+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:54:39.044+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:55:45.690+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:56:54.593+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T18:57:06.089+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T20:20:43.535+0800","caller":"handler/goods.go:221","msg":"handler.good.CreateClassifyInfo.sqlImageStr mysql.DB.Exec failed","error":"Error 1146: Table 'ame.image_url' doesn't exist"}
+{"level":"INFO","time":"2021-10-18T20:21:22.579+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T20:24:56.355+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T20:57:53.372+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T21:08:54.832+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:09:57.188+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:11:26.886+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:12:30.550+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:13:33.701+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:14:15.110+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-18T23:14:58.406+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:16:15.215+0800","caller":"handler/goods.go:131","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"expected slice but got struct"}
+{"level":"INFO","time":"2021-10-18T23:16:41.756+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:19:51.961+0800","caller":"handler/goods.go:131","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"expected slice but got struct"}
+{"level":"INFO","time":"2021-10-18T23:20:58.705+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-18T23:21:44.809+0800","caller":"handler/goods.go:139","msg":"handler.good.BatchGetGoods mysql.DB.Select failed","error":"Error 1054: Unknown column 'name' in 'where clause'"}
+{"level":"INFO","time":"2021-10-18T23:22:17.572+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T00:24:34.132+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T00:32:43.328+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T12:22:58.595+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T16:19:11.984+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T16:29:13.590+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-19T17:12:19.646+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-19T17:17:48.331+0800","caller":"goodsServer/main.go:44","msg":"Main mysql.Init failed"}
+{"level":"ERROR","time":"2021-10-19T17:21:39.405+0800","caller":"goodsServer/main.go:44","msg":"Main mysql.Init failed"}
+{"level":"INFO","time":"2021-10-20T01:05:48.817+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T11:57:11.052+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-20T23:39:00.498+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-21T00:42:57.507+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-21T11:39:23.338+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T11:39:34.296+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T11:39:41.831+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T11:39:48.003+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-21T11:39:56.441+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2021-10-21T23:31:50.276+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"INFO","time":"2021-10-23T00:57:31.380+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"WARN","time":"2021-10-24T17:18:42.241+0800","caller":"handler/goods.go:71","msg":"handler.good.GetClassifyGoods mysql.DB.Select failed","error":"Error 1146: Table 'ame.goods' doesn't exist"}
+{"level":"INFO","time":"2021-10-24T17:40:26.579+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}
+{"level":"ERROR","time":"2021-10-24T17:50:04.152+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-24T17:51:11.582+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2021-10-24T17:51:34.862+0800","caller":"handler/goods.go:30","msg":"handler.goods.GetPID failed","error":"sql: no rows in result set"}
+{"level":"WARN","time":"2021-10-24T17:52:45.771+0800","caller":"handler/goods.go:393","msg":"handler.good.DeleteClassifyInfo mysql.DB.Exec failed"}
+{"level":"INFO","time":"2021-10-24T20:26:35.399+0800","caller":"goodsServer/main.go:90","msg":"注销成功"}

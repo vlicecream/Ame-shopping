@@ -1,0 +1,22 @@
+{
+  "host": "127.0.0.1",
+  "port": 55555,
+  "mode": "dev",
+  "logger": {
+    "level": "debug",
+    "filename": "user.log",
+    "maxSize": 200,
+    "maxAge": 30,
+    "maxBackups": 7
+  },
+  "consul": {
+    "host": "1.116.45.13",
+    "port": 8500,
+    "Name": "userServer",
+    "GinName": "userGin",
+    "Tag": [
+      "yuki",
+      "ice"
+    ]
+  }
+}

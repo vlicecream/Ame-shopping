@@ -1,0 +1,12 @@
+2021-10-06T21:43:30.971+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goodsAPIDevJson","group":"dev","tenant":"3fb7d85c-fa3d-4861-8ab0-f415b26f2ea6"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-06T21:43:31.190+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goodsAPIDevJson","group":"dev","tenant":"3fb7d85c-fa3d-4861-8ab0-f415b26f2ea6"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-06T21:43:31.446+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"goodsAPIDevJson","group":"dev","tenant":"3fb7d85c-fa3d-4861-8ab0-f415b26f2ea6"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2021-10-06T21:43:31.447+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2021-10-06T21:43:31.448+0800	[33mWARN[0m	[client.GetConfig] config not found, dataId: goodsAPIDevJson, group: dev, namespaceId: 3fb7d85c-fa3d-4861-8ab0-f415b26f2ea6.

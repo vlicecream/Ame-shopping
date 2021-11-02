@@ -1,0 +1,50 @@
+{
+  "host": "0.0.0.0",
+  "port": 33336,
+  "mode": "dev",
+  "logger": {
+    "level": "debug",
+    "filename": "order.log",
+    "maxSize": 200,
+    "maxAge": 30,
+    "maxBackups": 7
+  },
+  "mysql": {
+    "username": "root",
+    "password": "root",
+    "database": "ame",
+    "host": "1.116.45.13",
+    "port": 3306,
+    "setMaxOpenConns": 200,
+    "setMaxIdleConns": 50
+  },
+  "consul": {
+    "host": "1.116.45.13",
+    "port": 8500,
+    "Name": "orderServer",
+    "Tag": [
+      "yuki",
+      "ice"
+    ]
+  },
+  "redis": {
+    "host": "1.116.45.13",
+    "port": 6379,
+    "dataBase": 0,
+    "password": ""
+  },
+  "goods": {
+    "name": "goodsServer"
+  },
+  "inventory": {
+    "name": "inventoryServer"
+  },
+  "snowflake": {
+    "startTime": "2021-01-01",
+    "machineID": 1
+  },
+  "rocketmq": {
+    "host": "1.116.45.13",
+    "port": 9876
+  }
+}

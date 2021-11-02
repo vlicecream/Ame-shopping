@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+service UserSever {
+  rpc GetAllUserList(PageInfo) returns (UserListResponse); // 搜索所有用户并分页
+  rpc GetUserInfoByMobile(MobileInfo) returns (UserInfoResponse); // 通过手机号拿到用户信息
+  rpc GetUserInfoByUserID(UserID) returns (UserInfoResponse); // 通过用户随机生成ID拿到用户信息
+  rpc CreateUser(CreateUserInfo) returns (UserInfoResponse); // 创建用户
+  rpc UpdateUser(UpdateUserInfo) returns (empty); // 更新用户
+  rpc CheckPassword(PasswordInfo) returns (IsRight);  // 检查密码
+  rpc CheckAuthCode(AuthCodeInfo) returns (IsRight); // 检查发送验证码
+  rpc SendAuthCode(MobileInfo) returns(RandomAuthCodeInfo); // 生成随机验证码并存入redis
+}
+
+message empty{}
+
+message PageInfo {
+  uint32 pn = 1;
+  uint32 pSize = 2;
+}
+
+message UserInfoResponse {
+  int32 id = 1;
+  int64 userID = 2;
+  string mobile = 3;
+  string password = 4;
+  string nickName = 5;
+  string gender = 6;
+  string role = 7;
+}
+
+message UserListResponse {
+  repeated UserInfoResponse UserList = 1 ;
+}
+
+message MobileInfo {
+  string mobile = 1;
+}
+
+message UserID {
+  int64 userID = 1;
+}
+
+message CreateUserInfo {
+  int64 userID = 1;
+  string mobile = 2;
+  string password = 3;
+}
+
+message UpdateUserInfo{
+  string mobile = 1;
+  string nickName = 2;
+  string userID =3;
+  string password = 4;
+  string gender = 5;
+  string role = 6;
+}
+
+message PasswordInfo {
+  string password = 1;
+  string EncryptedPassword = 2;
+}
+
+message IsRight{
+  bool ok = 1;
+}
+
+message AuthCodeInfo {
+  string mobile = 1;
+  string userAuthCode = 2;
+}
+
+message RandomAuthCodeInfo{
+  string userAuthCode = 1;
+}
